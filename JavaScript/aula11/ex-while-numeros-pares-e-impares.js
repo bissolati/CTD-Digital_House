@@ -23,5 +23,3 @@ while (i2 < numero) {
         }
     i2++;
 }
-
-//testando
