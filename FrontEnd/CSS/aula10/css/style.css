@@ -1,0 +1,27 @@
+.texto{
+    background-position: center;
+    background-color: rgba(129, 123, 123, 0.5);
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.banner {
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    background-image: url(../paris.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+   
+}

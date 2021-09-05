@@ -1,0 +1,70 @@
+h1, h2 {
+   margin: 0;
+}
+body{
+    height: 2000px;
+}
+
+.esquerda{
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.dentro_da_esquerda{
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+ }
+
+.direita{
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.dentro_da_direita{
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.centro-inferior{
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+}
+
+.dentro_centro{
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+h1, h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
