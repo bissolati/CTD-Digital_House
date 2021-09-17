@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    text-align: center;
+    background-color: #593527;
+    height: 100px;
+    padding: 30px;    
+}
+.cabecalho h1{
+    color: #BF8975;
+}
+
+.principal{
+    background-color: #8C5946;
+    height: 500px;
+    padding: 20px;
+
+}
+.imagens{
+    background-color: #F2F2F0;
+    height: 150px;
+    padding: 5px;
+}
+
+.espaco_formulario{
+    margin-top: 20px;
+    background-color: #F2F2F0;
+    height: 200px;
+    padding: 10px;
+}
+.espaco_formulario h1{
+    text-align: center;
+}
+
+.formulario{
+    padding: 5px;
+    width: 600px;
+    height: 100px;
+    border: solid 2px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+fieldset legend{
+    text-align: center;
+}

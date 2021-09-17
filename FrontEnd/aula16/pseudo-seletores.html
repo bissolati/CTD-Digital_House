@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      
+      input:hover ~ p {
+        border: 5px solid red;
+      }
+
+      input:checked {
+        transform: scale(2);
+        box-shadow: 0 0 0 3px red;
+      }
+
+      input:checked + div {
+        display: none;
+      }
+
+      .required:required {
+        background-color: red;
+      }
+
+      input:focus {
+        background-color: blue;
+      }
+
+      input:disabled {
+        background-color: green;
+      }
+
+      /* input:enabled {
+        background-color: yellow;
+      } */
+
+      .invalid:invalid {
+        background-color: black;
+      }
+
+      .invalid:valid {
+        background-color: green;
+      }
+
+      p:nth-child(1) {
+        background-color: red;
+      }
+
+      input:nth-of-type(1) {
+        background-color: purple;
+      }
+
+      .before-and-after {
+        display: block;
+        height: 300px;
+        background-color: yellow;
+      }
+
+      .before-and-after::before {
+        content: "lalalala";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+
+      .before-and-after::after {
+        content: "http://www.google.com";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+
+      .palavra::first-letter {
+        text-transform: uppercase;
+      }
+
+      .linhas::first-line {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <span>sou um span</span>
+      <p>lalalalala</p>
+      <input type="text" name="" id="" />
+      <input type="text" class="required" name="" id="" required />
+      <p>Vou desaparecer</p>
+      <p>Vou desaparecer</p>
+      <input type="checkbox" name="" id="" />
+      <input type="text" name="" id="" disabled value="disabled" />
+      <input type="text" class="invalid" name="" id="" required />
+      <div class="before-and-after">eu sou uma div</div>
+      <p class="palavra">first-letter</div>
+      <p class="linhas">
+        first-line<br>
+        second-line
+      </div>
+    </form>
+  </body>
+</html>
