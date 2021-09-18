@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa de Trabalho Aula '3' <form>
+    </title>
+
+    <link rel="stylesheet" href="style-mesa-de-trabalho.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="logo-computador.png" alt="Logo Giga Informática" width="300px">
+    </header>
+
+    <fieldset>
+
+        <legend>Formulário</legend>
+
+        <form action="/registro" method="POST">
+            <label for="usuario">Usuário:</label>
+            <input type="text" name="usuario" id="usuario">
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email">
+
+            <label for="comentario">Deixe seu comentário aqui: </label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+            <label for="selecione">Escolha uma cor: </label>
+            <select name="selecione" id="selecione">
+                <option value="#ff0000">Vermelho</option>
+                <option value="#00ff00">Verde</option>
+                <option value="0000ff">Azul</option>
+                <option value="#770077" selected>Roxo</option>
+            </select>
+
+            <div class="botoes">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>

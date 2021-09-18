@@ -1,0 +1,44 @@
+    body{
+        background-image: url(background-image02.jpg) ;
+        background-size: cover;        
+    }
+    body fieldset{
+        font-size: 20px;
+        color: white;
+        border-radius: 20px;
+    }
+    
+    body header img{
+        display: block;
+        margin: 0 auto;
+    }
+    body form label {
+        display: block;
+    }
+
+    .botoes {
+        display: block;
+    }
+    body form textarea{
+        border-radius: 8px;
+    }
+
+    body form input{
+        border-radius: 8px;
+        padding: 5px;
+    }
+    
+    body form select{
+        border-radius: 8px;
+        padding: 3px;
+    }
+    
+    body form button{
+        border-radius: 8px;
+        padding: 5px;
+    }
+    body fieldset form{
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
