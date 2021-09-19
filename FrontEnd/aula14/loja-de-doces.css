@@ -15,7 +15,7 @@
 
 .principal{
     background-color: #8C5946;
-    height: 500px;
+    height: 100vh;
     padding: 20px;
 
 }
@@ -33,22 +33,45 @@
 .espaco_formulario{
     margin-top: 20px;
     background-color: #F2F2F0;
-    height: 200px;
+    height: 350px;
     padding: 10px;
 }
 .espaco_formulario h1{
     text-align: center;
 }
 
-.formulario{
+.fieldset_formulario{
+    font-size: 22px;
     padding: 5px;
-    width: 600px;
-    height: 100px;
+    width: 450px;
+    height: 200px;
     border: solid 2px;
     border-radius: 5px;
     margin: 0 auto;
+    padding: 10px;
     
 }
 fieldset legend{
     text-align: center;
+}
+form h5{
+    text-align: center;
+}
+
+.fieldset_botoes{
+    font-size: 22px;
+    padding: 5px;
+    width: 450px;
+    height: 80px;
+    border: solid 2px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.fieldset_botoes input{
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bolder;
+    background-color: #BF8975;
 }

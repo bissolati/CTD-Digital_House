@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Acessíveis</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Tipo de equipamento</legend>
+        <input type="radio" name="rb3" id="pc" value="radiobutton" >
+        <label for="pc">PC</label> <br>
+        <input type="radio" name="rb3" id="linux" value="radiobutton" >
+        <label for="linux">Linux</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Tipo de carro</legend>
+        <select name="carro" id="carro">
+            <optgroup label="Ferrari">
+                <option value="1">458 Spider</option>
+                <option value="2">F12 Berlinetta></option>
+                <option value="3">Califoria T</option>
+            </optgroup>
+            <optgroup label="Porsche">
+                <option value="4">Macan</option>
+                <option value="5">918 Spyder</option>
+            </optgroup>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Tabindex</legend>
+
+        <a href="documento1.html" tabindex="1">Primeiro documento.</a>
+        <a href="documento2.html" tabindex="2" style="float: right;">Segundo documento.</a>
+    </fieldset>
+
+    <fieldset>
+        <legend>Tabindex com input</legend>
+        <input type="text" tabindex="3" />
+        <input type="text" tabindex="4" />
+        <input type="text" tabindex="5" />
+    
+    </fieldset>
+
+</body>
+</html>
