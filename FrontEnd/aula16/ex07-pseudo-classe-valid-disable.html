@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pseudo-classe (:valid) e (:disabled) </title>
+
+    <style>
+        input{
+            display: block;
+            width: 200px;
+        }
+        input:invalid {
+            background-color: rgb(221, 63, 63);
+        }
+        input:valid{
+            background-color: skyblue;
+        }
+        input:disabled{
+            background-color: rgb(49, 49, 49);
+        }
+        
+    </style>
+
+</head>
+<body>  
+    <label for="1">Nome: </label>
+    <input type="text" name="1" id="1">
+
+    <label for="2">Sobrenome: </label>
+    <input type="text" name="2" id="2">
+
+    <label for="3">Opção Desabilitada: </label>
+    <input type="text" name="3" id="3" disabled>
+   
+    <label for="4">E-mail: </label>
+    <input type="email" name="4" id="4" required>
+    
+    <label for="5">Escolha um dia: </label>
+    <input type="number" name="5" id="5" required>
+
+    
+</body>
+</html>

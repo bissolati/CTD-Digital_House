@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Target Mozilla</title>
+    <style>
+        p:target {
+            background-color: gold;
+        }
+
+        /* Adicione o pseudo-elemento dentro do elemento alvo */
+        p:target::before {
+            font: 70% sans-serif;
+            content: "►";
+            color: limegreen;
+            margin-right: .25em;
+        }
+
+        /* Estilize nos elementos em itálico dentro do elemento alvo  */
+        p:target i {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Índice</h3>
+    <ol>
+        <li><a href="#p1">Ir para o primeiro parágrafo!</a></li>
+        <li><a href="#p2">Ir para o segundo parágrafo!</a></li>
+        <li><a href="#vazio">Esse link não vai pra lugar nenhum,
+                pois, o alvo não existe</a></li>
+    </ol>
+
+    <h3>Meu artigo divertido</h3>
+    <p id="p1">Você pode definir <i>este parágrafo</i> como alvo
+        usando um fragmento de URL. Clique no link acima para experimentar!</p>
+    <p id="p2">Esse é <i>outro parágrafo</i>, também acessável
+        pelos links acima. Não é incrível?</p>
+
+</body>
+
+</html>

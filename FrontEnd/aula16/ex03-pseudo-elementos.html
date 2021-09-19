@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Pseudo-elementos</title>
+
+    <style>
+        div::before{
+            content: "Este aparecerá antes do conteúdo do elemento";
+            color: blueviolet;
+        }
+
+        div::after{
+            content: "Este aparecerá depois do conteúdo do elemento";
+            color: brown;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div>
+        <h1>Conteúdo da H1</h1>
+    </div>
+
+</body>
+</html>

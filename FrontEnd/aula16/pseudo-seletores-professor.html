@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
+    <title>Pseudo-seletores exemplo professor</title>
     <style>
       
       input:hover ~ p {
@@ -83,19 +83,31 @@
       }
     </style>
   </head>
+
   <body>
     <form>
       <span>sou um span</span>
       <p>lalalalala</p>
-      <input type="text" name="" id="" />
-      <input type="text" class="required" name="" id="" required />
+  -----------------------------------------------------------------------------------------------------<br>
+      <label for="campo1">Campo1</label>
+      <input type="text" name="campo1" id="campo1" />
+
+      <label for="campo2">Campo2</label>
+      <input type="text" class="required" name="campo2" id="campo2" required />
+      
       <p>Vou desaparecer</p>
       <p>Vou desaparecer</p>
-      <input type="checkbox" name="" id="" />
+      -----------------------------------------------------------------------------------------------------<br>      
+      <label for="check">CheckBox</label>
+      <input type="checkbox" name="check" id="check" />
+      
       <input type="text" name="" id="" disabled value="disabled" />
       <input type="text" class="invalid" name="" id="" required />
+
       <div class="before-and-after">eu sou uma div</div>
+
       <p class="palavra">first-letter</div>
+        
       <p class="linhas">
         first-line<br>
         second-line

@@ -1,4 +1,90 @@
-.titulo{
-text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+
+header img{
+    position: relative;
+    margin-bottom: -50px;
+}
+.p-topo{
+    font-family: Roboto, Arial;
+    font-size: 18px;
+}
+main{
+    background-color: #F2A30F;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 20px 15px 20px;
+}
+label{
+    display: block;
+}
+table td{
+    padding: 0 30px 0 0;
+}
+.email-marketing table input {
+    width: 250px;
+}
+.envio input{
+    background-color: #576EF2;
+    color: #F2CB57;
+    padding: 5px;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+}
+select{
+    border-radius: 5px;
+}
+
+/* Pseudo-seletores */
+
+input:hover{
+    background-color: #F2CA50;
+}
+input:focus{
+    background-color: #AEDFF2;
+}
+input:invalid {
+    background-color: red;
+}
+
+input:checked{
+    transform: scale(1.5);
+}
+    
+
+textarea:hover{
+    background-color: #F2CA50;
+}
+textarea:focus{
+    background-color: #AEDFF2;
+}
+select:hover{
+    background-color: #F2CA50;
+}
+select:focus{
+    background-color: #AEDFF2;
+}
+
+.envio input:hover{
+    background-color: white;
+    color: black;
+}
+.envio input:focus{
+    background-color: #576EF2;
+}
+
+
+.p-topo::first-letter{
+    text-transform: uppercase;
+}
+
+
+
 

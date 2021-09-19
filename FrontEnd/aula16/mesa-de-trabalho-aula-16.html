@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Pesquisa de satisfação</h1>
+        <img src="img/smile.png" alt="Smile" width="350px">
+    </header>
+    <main>
+        <div>
+            <p class="p-topo">para melhorar continuamente nossos serviços, realizamos pesquisas de satisfação com todos os clientes.</p>
+        </div>
+
+        <form>
+
+            <fieldset class="data">
+                <label for="data">Em qual data realizou a compra?</label>
+                <input type="date" name="data" id="data">
+            </fieldset>
+
+            <fieldset class="qualidade_produto">
+                <label for="produto">De 0 a 5 qual sua satisfação com a qualidade do produto?</label>
+                <input type="radio" name="produto" id="produto">
+                <input type="radio" name="produto" id="produto">
+                <input type="radio" name="produto" id="produto" checked>
+                <input type="radio" name="produto" id="produto">
+                <input type="radio" name="produto" id="produto">
+
+            </fieldset>
+
+            <fieldset class="entrega">
+                <label for="entrega">De 0 a 5 qual sua satisfação com o tempo de entrega?</label>
+                <input type="radio" name="entrega" id="entrega">
+                <input type="radio" name="entrega" id="entrega">
+                <input type="radio" name="entrega" id="entrega" checked>
+                <input type="radio" name="entrega" id="entrega">
+                <input type="radio" name="entrega" id="entrega">
+            </fieldset>
+            <fieldset class="email-marketing">
+                <table>
+                    <td>
+                        <label for="e-mail">Insira seu e-mail: </label>
+                        <input type="email" name="e-mail" id="e-mail">
+                    </td>
+                    <td>
+                        <label for="marketing">Onde nos achou?</label>
+                        <select name="marketing" id="marketing">
+                            <option value="youtube">Youtube</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="indicao">Indicação</option>
+                        </select>
+                    </td>
+                </table>
+                
+                <label for="mensagem"> Quer deixar uma mensagem para nós?</label>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+            </fieldset>
+
+                <fieldset class="envio">
+                    <input type="reset" value="Limpar formulário" name="limpar" id="limpar">
+                    <input type="submit" value="Enviar formulário">
+                </fieldset>
+
+        </form>
+    </main>
+
+</body>
+
+</html>

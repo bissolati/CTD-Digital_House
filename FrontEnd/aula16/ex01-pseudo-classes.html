@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        a:link{
+            text-decoration: none;
+            background-color: lawngreen;
+        }
+
+        a:visited{
+             background-color: salmon;
+         }
+
+        a:active{
+            background-color: indigo;
+        }
+
+        a:hover{
+            background-color: gold;
+        }
+
+        input:hover{ border-color: blue; }
+        input:focus{border-color: yellow;}
+        input:disabled{background-color:blueviolet}
+        input:enabled{border-style: dotted;}
+
+    </style>
+
+</head>
+
+<body>
+    <h2>Pseudo-classes específicas - Links</h2>
+
+    <a href="https://www.ilovepdf.com/pt">Pseudo-classes I love pdf</a>
+
+    <fieldset>
+        <input type="text">
+        <input type="text" disabled>
+
+    </fieldset>
+
+    </body>
+
+</html>
