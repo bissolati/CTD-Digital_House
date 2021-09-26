@@ -1,10 +1,6 @@
 
 //Transforme as seguintes funções em arrow functions:
 
-/*function print(mensagem){
-  console.log(mensagem)
-}
-print("Olá, bom dia")*/
 
 let imprimir = () => console.log("Olá, bom dia");
 imprimir(); 
