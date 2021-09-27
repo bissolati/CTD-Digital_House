@@ -1,0 +1,51 @@
+body{
+    background-color: #AEAEAE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box_titulo{
+    background-color: #3A3B40 ;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    padding: 18px;
+}
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #D9BE3B ;
+
+}
+
+.filmes{
+    display: flex;
+    flex-wrap: wrap; /*pula para a proxima linha quando não cabe na tela*/
+    gap: 40px; /* espaçamento entre os elementos*/
+    padding: 20px;
+   justify-content: space-around;
+}
+
+.filme{
+   width: 25%;
+   list-style: none; 
+   background-color: rgba(0, 0, 0, 0.4);
+   min-width: 150px;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.imagem_filme{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.titulo_filme{
+    font-size: 18px;
+}
+
+.informacao_filme{
+    font-size: 14px;
+}
