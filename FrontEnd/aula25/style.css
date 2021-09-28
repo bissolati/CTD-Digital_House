@@ -1,0 +1,19 @@
+.menu{
+    position: sticky;
+    top: 0;
+    height: 56px;
+}
+.banner{
+    display: flex;
+    height: calc(100vh -56px);
+    justify-content: center;
+}
+
+.secao{
+    position: sticky;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-left: 120px;
+}
+
