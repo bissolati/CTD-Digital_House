@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Poppins:wght@200;400&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+ <!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jquery -->
+   <!-- Font Awesome Icons (http://fontawesome.io/) -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Font Awesome Icons (http://fontawesome.io/) -->
+</head>
+<body>
+<header class="menu-bg">
+    <div class=" menu" >
+
+            <div >
+             <a href="#"> <img  class="menu-logo"src="image/MyCity.png" alt="logo-menu">
+               
+             </a>
+             </div> 
+             <nav class="menu-nav">
+            <ul>
+                <li class="item"><a href="index.html">HOME</a></li>
+                <li class="item menu-sep"><a href="#cidade">CIDADE</a></li>
+                <li class="item menu-sep"><a href="#curiosidades">CURIOSIDADES</a></li>
+                <li class="item menu-sep"><a href="#canais">CANAIS OFICIAIS</a></li>       
+                <li class="item menu-sep"><a href="contato.html">CONTATO</a></li>         
+            </ul>
+
+        </nav>
+       
+    </div>
+</header>
+
+
+<section class="sobre altura" id="curiosidades" >
+    <div class="sobre-info hero-image2 "> 
+
+<h2 class="titulo-sep">FALE CONOSCO</h2>
+
+        <div class="sep-item2"></div>
+        <div class="textos-item">
+            <section>
+                <div class="flex-container  form-dados-direction">
+                 <div>
+                    <form action="/registro" method="post" class="form-dados">
+                        <p class="form-info">
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input type="text" name="nome" id="nome" class="color-input dado" placeholder="nome"  maxlength="100" required>
+                    </p>
+                    <p class="form-info">
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" name="email" id="email" class="color-input dado" placeholder="email@email.com.br" required>
+                    </p>
+                    <p class="form-info">
+                        <label for="phone">Telefone:</label>
+                        <br>
+                        <input type="phone" name="phone" id="phone" class="color-input dado" placeholder="00 00000-0000">
+                    </p>
+                    <p class="form-info">
+                        <label for="idade">Data de Nascimento</label>
+                        <br>
+                        <input type="number" name="idade" id="idade" class="color-input dado" placeholder="idade">
+                    </p>
+
+                                     
+                    <p class="form-info">
+                        <label for="ponto">Ponto Turístico</label>
+                        <br>
+                        <select name="ponto" id="ponto">
+                          <option value="praça da moça">Praça da Moça</option>
+                          <option value="borboletário">Borboletário</option>
+                          <option value="jardim Botanico">Jardim Botanico</option>
+                          <option value="casa de hip-hop">Casa de hip-hop</option>
+                        </select>
+                    </p>
+                
+                    <p class="form-info">
+                    <label for="comentario">Deixe seu comentário:</label>
+                        <br>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10">Digite aqui os seus dados</textarea>
+                    </p>
+                    <div>
+                    <p class="form-info">
+                        <button class="btn-info" type="reset">Limpar Campos</button>
+                    </p> 
+                
+                    <p class="form-info">
+                        <button class="btn-info" type="submit">Enviar</button>
+                    </p> 
+                </div>
+                    </form>
+                </div>
+                <div class="dado-image" >
+                    <img src="image/img-man 1 (1).png" alt="">
+                </div>
+                </section>
+        </div>
+
+    
+</section>
+
+
+<section class="sobre" id="canais" >
+    <h2 class="dado-footer">Acesse os nossos Canais:</h2>
+    <div class="sobre-info"> 
+
+        <div class="textos-item">
+            <div class="sobre-dado">
+                <div class="sobre-item-footer">  
+                    <a title="Facebook" href="#" target="_blank"> <i class="fa fa-facebook fa-2x" aria-hidden="true"></i> </a>
+                </div>
+                <div class="sobre-item-footer">  
+                    <a title="Youtube" href="#" target="_blank"> <i class="fa fa-youtube fa-2x" aria-hidden="true"></i> </a>
+                </div>
+        
+                <div class="sobre-item-footer">
+                    <a title="Instagram" href="#" target="_blank"> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i> </a> 
+                </div>
+               
+        </div>
+
+</section>
+
+<footer>
+    
+<div class="sobre-footer">
+    <p style="color:#F6F6F6 ;">©2021 | DIADEMA</p>
+</div>
+
+</footer>
+
+</body>
+</html>
