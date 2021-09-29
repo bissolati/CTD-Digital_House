@@ -260,6 +260,7 @@ margin-bottom: 50px;
  }
  input:hover{
      background-color: #F2F2F2;
+     transform: scale(1.1);
  }
 
  label{
@@ -275,6 +276,7 @@ margin-bottom: 50px;
  }
  select:hover{
     background-color: #F2F2F2;
+    transform: scale(1.1);
 }
 
  textarea{
@@ -286,6 +288,7 @@ margin-bottom: 50px;
  }
  textarea:hover{
     background-color: #F2F2F2;
+    transform: scale(1.1);
 }
 
  .display-button{
@@ -301,5 +304,6 @@ margin-bottom: 50px;
    align-items: center;
  }
  .btn-info:hover{
-     color: #F2F2F2;
+     background-color: white;
+     transform: scale(1.1);
  }
