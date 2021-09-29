@@ -1,0 +1,19 @@
+.cabecalho {
+  background-color: #39D5E3;
+  text-align: center;
+}
+
+.footer {
+  background-color: yellow;
+  margin-top: 20px;
+}
+
+.principal {
+  background-color: #E3D366;
+  padding: 20px;
+}
+
+p {
+  color: white;
+  background-color: #962666;
+}/*# sourceMappingURL=main.css.map */
