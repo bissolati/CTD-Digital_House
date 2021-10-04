@@ -1,0 +1,75 @@
+/* Fonte Roboto Black 900 do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.celoflix{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    color: rgb(229, 9, 20);
+    padding: 5px;
+}
+
+.celoflix:hover{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.fontesMenu{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-menu:hover{
+    color: black;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.ContainerSinopse{
+    padding: 2%;
+
+}
+
+
+.coluna h2{
+    text-align: center;
+}
+.coluna{
+    padding: 4% 2% 2% 2%;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.colunaCenter{
+    display: flex;
+    justify-content: center;
+}
+.coluna img{
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.coluna img:hover{
+    transform: scale(1.1);
+}
+.coluna iframe{
+    width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	display: block;
+}
+
+.sinopse{
+    margin-top: 0.5%;
+    border-bottom: solid 2px black;
+}
+
+.ficha-tecnica{
+    margin-top: 1px;
+    
+    /* border: solid 1px black; */
+}
+
+.botao-voltar{
+    margin-top: 0.6%;
+}
+
